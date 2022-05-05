@@ -19,6 +19,12 @@ public class DataBaseConnection
         return cmd.ExecuteReader();
     }
     
+    public int DBNonQuery(String query)
+    {
+        var cmd = new MySqlCommand(query, con);
+        return cmd.ExecuteNonQuery();
+    }
+    
     public void Close()
     {
         con.Close();

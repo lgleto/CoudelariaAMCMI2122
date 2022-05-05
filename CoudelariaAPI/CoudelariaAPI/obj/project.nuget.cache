@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5l4DFOl5cuf1csbE2xQcWJI9n2Ko8La2DkN4IQv99oh1BEulQ/Vi4bzjEH9A2CPAVau2aG1SW1IoZvLyHMV+fg==",
+  "dgSpecHash": "qd4NPSFiukOaju252xB+bVFcDsHBH0HxEOoodKrXJS7lGt03UKjCUb7PBMpupVXVaSlaCbSmJiflzn7e4j8AEA==",
   "success": true,
-  "projectFilePath": "/Users/lourencogomes/RiderProjects/CoudelariaAPI/CoudelariaAPI/CoudelariaAPI.csproj",
+  "projectFilePath": "/Users/lourencogomes/git/aulas/CMI-AP/2022/Coudelaria/CoudelariaAPI/CoudelariaAPI/CoudelariaAPI.csproj",
   "expectedPackageFiles": [
     "/Users/lourencogomes/.nuget/packages/bouncycastle.netcore/1.8.5/bouncycastle.netcore.1.8.5.nupkg.sha512",
     "/Users/lourencogomes/.nuget/packages/google.protobuf/3.19.4/google.protobuf.3.19.4.nupkg.sha512",

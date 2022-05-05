@@ -1093,11 +1093,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/lourencogomes/RiderProjects/CoudelariaAPI/CoudelariaAPI/CoudelariaAPI.csproj",
+      "projectUniqueName": "/Users/lourencogomes/git/aulas/CMI-AP/2022/Coudelaria/CoudelariaAPI/CoudelariaAPI/CoudelariaAPI.csproj",
       "projectName": "CoudelariaAPI",
-      "projectPath": "/Users/lourencogomes/RiderProjects/CoudelariaAPI/CoudelariaAPI/CoudelariaAPI.csproj",
+      "projectPath": "/Users/lourencogomes/git/aulas/CMI-AP/2022/Coudelaria/CoudelariaAPI/CoudelariaAPI/CoudelariaAPI.csproj",
       "packagesPath": "/Users/lourencogomes/.nuget/packages/",
-      "outputPath": "/Users/lourencogomes/RiderProjects/CoudelariaAPI/CoudelariaAPI/obj/",
+      "outputPath": "/Users/lourencogomes/git/aulas/CMI-AP/2022/Coudelaria/CoudelariaAPI/CoudelariaAPI/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/lourencogomes/.nuget/NuGet/NuGet.Config"

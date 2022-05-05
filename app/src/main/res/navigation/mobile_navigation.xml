@@ -9,7 +9,11 @@
         android:id="@+id/navigation_home"
         android:name="ipca.example.coudelaria.ui.home.HomeFragment"
         android:label="@string/title_home"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_navigation_home_to_cavaloDetailFragment"
+            app:destination="@id/cavaloDetailFragment" />
+    </fragment>
 
     <fragment
         android:id="@+id/navigation_dashboard"
@@ -22,4 +26,12 @@
         android:name="ipca.example.coudelaria.ui.notifications.NotificationsFragment"
         android:label="@string/title_notifications"
         tools:layout="@layout/fragment_notifications" />
+    <fragment
+        android:id="@+id/cavaloDetailFragment"
+        android:name="ipca.example.coudelaria.ui.home.CavaloDetailFragment"
+        android:label="fragment_cavalo_detail"
+        tools:layout="@layout/fragment_cavalo_detail" >
+        <argument android:name="Cod_Cavalo"
+            app:argType="integer" />
+    </fragment>
 </navigation>

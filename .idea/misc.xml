@@ -5,8 +5,11 @@
       <map>
         <entry key="app/src/main/res/layout-w1240dp/activity_login.xml" value="0.1" />
         <entry key="app/src/main/res/layout-w936dp/activity_login.xml" value="0.1" />
+        <entry key="app/src/main/res/layout-w936dp/row_cavalo.xml" value="0.221484375" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.2578125" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.2578125" />
+        <entry key="app/src/main/res/layout/fragment_cavalo_detail.xml" value="0.26663818359375" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.1578125" />
       </map>
     </option>
   </component>

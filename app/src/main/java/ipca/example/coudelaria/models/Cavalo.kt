@@ -34,6 +34,18 @@ class Cavalo {
         this.cod_Coudelaria_Resid = cod_Coudelaria_Resid
     }
 
+    fun toJSON() : JSONObject{
+        val jsonObject = JSONObject()
+        jsonObject.put("cod_Cavalo"           ,cod_Cavalo           )
+        jsonObject.put("nome_Cavalo"          ,nome_Cavalo          )
+        //jsonObject.put("data_Nascimento"      ,data_Nascimento      )
+        jsonObject.put("genero"               ,genero               )
+        jsonObject.put("pai"                  ,pai                  )
+        jsonObject.put("mae"                  ,mae                  )
+        jsonObject.put("cod_Coudelaria_Nasc"  ,cod_Coudelaria_Nasc  )
+        jsonObject.put("cod_Coudelaria_Resid" ,cod_Coudelaria_Resid )
+        return jsonObject
+    }
 
     companion object{
         fun fromJSON(jsonObject: JSONObject) : Cavalo{
